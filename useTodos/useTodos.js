@@ -1,5 +1,5 @@
 import { useReducer, useEffect } from "react";
-import { todoReducer } from "../08-useReduce/index";
+import { todoReducer } from "./todoReducer";
 
 //Trae los datos del localStorage como objeto para poder usarlo en el useReducer
 const init = () => {
